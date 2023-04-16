@@ -1,0 +1,254 @@
+
+/* ! TABLET DESIGN START */
+
+@media only screen and (max-width :768px){
+    #desktop
+    {
+        scroll-behavior: none;
+        scrollbar-width: 0px;
+        width: 100%;
+    }
+    #desktop #header 
+    {
+        width: 100%;
+    }
+    #desktop #header .container
+    {
+        width: 80%;
+
+    }  
+    #desktop #header .container #header-logo
+    {
+        gap: 0;
+        margin-left: 32%;
+    }
+    #desktop #header .container #header-logo > img
+    {
+        border-radius: 50%;
+        width: 40px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    #desktop #header .container #header-banner-input
+    {
+        padding: 7px 14px;
+    }
+    #desktop #header .container #header-banner #searchBtn
+    {
+        padding: 7px 18px;
+    }
+    /* ? HEADER SECTION END */
+
+    /* * to continue... */
+
+    /* ? MAIN SECTION START */
+    #main
+    {
+        width: 100%;
+    }
+    #main .container
+    {
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+    }
+    #main .container img
+    {
+        box-sizing: border-box;
+        width: 100%;
+        height: 300px;
+    }
+    /* ? MAIN SECTION END */
+}
+
+/* ! TABLET DESIGN END */
+
+/* * to continue... */
+
+/* ! SMALLER PHONE DESIGN START 570px */
+
+
+@media only screen and (max-width : 570px){
+    #desktop
+    {
+        scroll-behavior: none;
+        scrollbar-width: 0px;
+        width: 100%;
+    }
+    #desktop #header 
+    {
+        width: 100%;
+    }
+    #desktop #header .container
+    {
+        width: 80%;
+
+    }  
+    #desktop #header .container #header-logo
+    {
+        gap: 0;
+        margin-left: 22%;
+    }
+    #desktop #header .container #header-logo #header-h1
+    {
+        font-size: 32px;
+    }
+    #desktop #header .container #header-logo > img
+    {
+        width: 40px;
+    }
+    #desktop #header .container #header-banner
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    #desktop #header .container #header-banner-input
+    {
+        margin: 0 auto;
+        padding: 7px 21px;
+    }
+    #desktop #header .container #header-banner #searchBtn
+    {
+        margin: 20px auto;
+        padding: 2px 14px;
+    }
+    /* ? HEADER SECTION END */
+
+    /* * to continue... */
+
+    /* ? MAIN SECTION START */
+    #main
+    {
+        width: 100%;
+    }
+    #main .container
+    {
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+    }
+    #main .container img
+    {
+        box-sizing: border-box;
+        width: 100%;
+        height: 300px;
+    }
+    #main #main-box-btn 
+    {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #main #main-box-btn #next
+    {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 8px 32px;
+        margin-left: -50px;
+    }
+    /* ? MAIN SECTION END */
+}
+
+/* !  SMALLER PHONE DESIGN END */
+
+/* * to continue... */
+
+/* ! SMALL PHONE DESIGN START */
+
+@media only screen and (max-width:400px){
+    #desktop
+    {
+        scroll-behavior: none;
+        scrollbar-width: 0px;
+        width: 100%;
+    }
+    #desktop #header 
+    {
+        width: 100%;
+    }
+    #desktop #header .container
+    {
+        width: 80%;
+
+    }  
+    #desktop #header .container #header-logo
+    {
+        gap: 0;
+        margin-left: 16%;
+    }
+    #desktop #header .container #header-logo #header-h1
+    {
+        font-size: 32px;
+    }
+    #desktop #header .container #header-logo > img
+    {
+        width: 40px;
+    }
+    #desktop #header .container #header-banner
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    #desktop #header .container #header-banner-input
+    {
+        margin: 0 auto;
+        padding: 2px 7px;
+    }
+    #desktop #header .container #header-banner #searchBtn
+    {
+        margin: 20px auto;
+        padding: 2px 7px;
+    }
+    /* ? HEADER SECTION END */
+
+    /* * to continue... */
+
+    /* ? MAIN SECTION START */
+
+    #main
+    {
+        width: 100%;
+    }
+    #main .container
+    {
+        box-sizing: border-box;
+        padding-top: 20px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 80%);
+    }
+    #main .container img
+    {
+        box-sizing: border-box;
+        width: 100%;
+        height:400px;
+    }
+    #main #main-box-btn 
+    {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #main #main-box-btn #next
+    {
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 7px 21px;
+        margin-left: -32px;
+    }
+    /* ? MAIN SECTION END */
+}
+
+/* ! SMALL PHONE DESIGN END */
